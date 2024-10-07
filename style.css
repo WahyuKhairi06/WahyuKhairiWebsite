@@ -1,0 +1,212 @@
+/*Index*/
+
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+/* Navbar-container */
+.navbar-container {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.ul-navbar {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.li-navbar {
+    list-style-type: none;
+    padding: 10px;
+    margin: 5px;
+    font-size: 15px;
+}
+
+.li-navbar:hover {
+    background-color: blue;
+    transition: 0.1s ease-in-out;
+    transition-delay: 0.2s;
+    border-radius: 15px;
+}
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+/* Memindahkan logo ke paling kanan halaman */
+.logo-right {
+    position: absolute;
+    right: 20px; /* Posisikan logo 20px dari ujung kanan halaman */
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.navbar-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.content-1 {
+    background-color: antiquewhite;
+    display: flex;
+    height: 65vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-content {
+    max-width: 20%; /* Agar gambar tidak melebihi ukuran container */
+    height: auto;   /* Memastikan proporsi gambar tetap */
+    border-radius: 50%;
+}
+
+.text-PWA {
+    background-color: antiquewhite;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer {
+    background-color: black;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-footer {
+    font-size: 30px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+/* ABOUT CSS*/
+
+.content-2 {
+    background-color: antiquewhite;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ImgAboutMe {
+max-width: 15%; /* Agar gambar tidak melebihi ukuran container */
+ height: auto;   /* Memastikan proporsi gambar tetap */
+ border-radius: 10%;
+align-items: center;
+margin-top: 2%;
+margin-bottom: 5%;
+
+}
+
+.identitas {
+    height: 15vh;
+    background-color: antiquewhite;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    
+   
+}
+
+.aboutPWA {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 15vh;
+    font-size: 20px;
+    padding: 2%;
+}
+
+
+/* END ABOUT CSS*/
+
+
+
+
+
+
+
+
+
+
+/* Contact CSS*/
+
+.content-3 {
+    background-color: antiquewhite;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-content-3 {
+max-width: 20%;
+border-radius: 10%;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+
+  .text-head {
+    text-align: center;
+    color: black;
+  }
+  
+.medsos {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+
+/* END Contact CSS*/

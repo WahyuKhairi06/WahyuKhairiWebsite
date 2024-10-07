@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wahyu Web</title>
+    <link rel="icon" href="iconweb.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <script src="./app.js"></script>
+</head>
+<body>
+    <div class="container-1">
+        <!-- NAVIGATION BAR -->
+        <div class="navbar-container">
+            <ul class="ul-navbar">
+                <li class="li-navbar">
+                    <a href="index.html" class="a-navbar">HOME</a>
+                </li>
+                <li class="li-navbar">
+                    <a href="about.html" class="a-navbar">ABOUT ME</a>
+                </li>
+                <li class="li-navbar">
+                    <a href="contact.html" class="a-navbar">CONTACT ME</a>
+                </li>
+            </ul>
+            <!-- Menambahkan logo di ujung kanan halaman -->
+            <a href="index.html" class="logo-right">
+                <img src="iconweb.jpg" alt="Logo" class="navbar-logo">
+            </a>
+        </div>
+        <!-- END OF NAVIGATION BAR -->
+
+    <!-- CONTENT 3 -->
+        <div class="content-3">
+            <div class="text-head">
+                <h2>Contact Us</h2>
+                <p>Thanks for coming to my Website, leave me a message:</p>
+              </div>
+                  <img src="ContactPerson.jpg" class="img-content-3">
+                  <form>
+                      <div class="text-contact">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <label for="fphone">Phone Number</label>
+                    <input type="text" id="fnumber" name="phonenumber" placeholder="Phone Number">
+                    <label for="femail">Email</label>
+                    <input type="text" id="femail" name="youremail" placeholder="email@example.com">
+                    <label for="kategori">Kategori Pesan:</label>
+                    <select id="kategori" name="kategori">
+                        <option value="pertanyaan">Pertanyaan</option>
+                        <option value="saran">Saran</option>
+                        <option value="keluhan">Keluhan</option>
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>   
+                    <label>Do you want to receive a response?</label>
+                    <input type="radio" id="response_yes" name="response" value="yes">
+                    <label for="response_yes">Yes</label>
+                    <input type="radio" id="response_no" name="response" value="no">
+                    <label for="response_no">No</label>
+                    
+                    <input class="input" type="Submit" onclick="alert ('Thank you for your message');" value="Submit">
+                 </form>
+                </div>
+              </div>
+            </div>
+            <Div class="medsos">
+                <a href="https://www.tiktok.com/@siwahyuuuu_?_t=8pSOxHkQHP6&_r=1">
+                    <img src="tiktok1.png" width="100px" height="100px" alt="tiktok">  siwahyuuuu_
+                </a>
+                <a href="https://www.instagram.com/wahyukhairi_13?igsh=bWxjYzcyN2Zud3dw&utm_source=qr">
+                    <img src="IG.png" width="100px" height="100px" alt="IG">wahyukhairi_13
+                </a>
+            </Div>
+        <!-- COMTENT 3 END -->
+
+        
+        <!-- FOOTER -->
+        <div class="footer">
+            <h1 class="h1-footer">Thank you for visiting</h1>
+        </div>
+    </div>
+</body>
+</html>
